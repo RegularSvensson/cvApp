@@ -1,5 +1,7 @@
 'use strict';
 
+/* App Module */
+
 var cvApp = angular.module('cvApp', ['ngRoute', 'cvAppControllers']);
 
 cvApp.config(['$routeProvider', function($routeProvider) {
