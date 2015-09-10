@@ -1,1 +1,3 @@
-app.js
+'use strict';
+
+var cvApp = angular.module('cvApp', ['ngRoute', 'cvAppControllers']);
