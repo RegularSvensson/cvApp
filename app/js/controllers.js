@@ -8,4 +8,9 @@ cvAppControllers.controller('HomeController', ['$scope', '$http', function($scop
 	});
 }]);
 
+
+cvAppControllers.controller('AboutController', ['$scope', '$http', function($scope, $http) {
+	$http.get('info/info.json').success(function(data) {
+		$scope.info = data;
+	});
 }]);
