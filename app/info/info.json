@@ -1,36 +1,53 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "name": "Elias Svensson",
+    "label": "Hustler & Aspiring Hacker",
+    "picture": "/app/img/headshot.jpg",
+    "email": "elias.svensson.1992@gmail.com",
+    "phone": "+46727431990",
+    "website": "https://www.facebook.com/eejs92",
+    "summary": "Hustler by day, hacker by night.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Lindholmsallén 37",
+      "postalCode": "417 53 Göteborg",
+      "city": "Göteborg",
+      "countryCode": "SWE",
+      "region": "Sweden"
     },
     "profiles": [{
       "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
+      "username": "RegularSvensson",
+      "url": "https://twitter.com/RegularSvensson"
+    }, 
+    {
+		"network": "GitHub",
+		"username": "RegularSvensson",
+		"url": "https://github.com/RegularSvensson"
     }]
   },
   "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
+    "company": "ProgressPics.com",
+    "position": "Founder",
+    "website": "http://progresspics.com",
+    "startDate": "2012",
+    "endDate": "2013",
+    "summary": "A platform to connect fitness enthusiasts with searchable before- & after pictures.",
     "highlights": [
-      "Started the company"
+      "Raised $5k", "Hired a programmer"
     ]
-  }],
+  },
+  {
+  	"work": [{
+    "company": "Knowly AB",
+    "position": "Intern",
+    "website": "http://www.knowly.com/",
+    "startDate": "2014",
+    "endDate": "2014",
+    "summary": "Create, share & track online training",
+    "highlights": [
+      "Worked with customer- & business model development"
+    ]
+  	}],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -43,11 +60,11 @@
     ]
   }],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
+    "institution": "Chalmers Institute of Technology",
+    "area": "Industrial Engineering",
+    "studyType": "Bachelor + Master",
+    "startDate": "2013",
+    "endDate": "2018",
     "gpa": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -76,9 +93,13 @@
     ]
   }],
   "languages": [{
-    "language": "English",
+    "language": "Swedish",
     "fluency": "Native speaker"
-  }],
+  }, 
+  {
+  	"language": "English",
+    "fluency": "fluent"
+  	}],
   "interests": [{
     "name": "Wildlife",
     "keywords": [
