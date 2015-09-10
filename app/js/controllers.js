@@ -8,6 +8,7 @@ cvAppControllers.controller('HomeController', ['$scope', '$http', function($scop
 	$http.get('/app/info/info.json').success(function(data) {
 		$scope.stuff = data;
 	});
+	$scope.backgroundImg = "/app/img/kugghjulet.png"
 }]);
 
 cvAppControllers.controller('AboutController', ['$scope', '$http', function($scope, $http) {
