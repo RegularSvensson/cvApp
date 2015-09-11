@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "name": "Elias Svensson",
+    "label": "Hustler. Aspiring hacker.",
+    "picture": "/app/img/headshot.jpg",
+    "email": "elias.svensson.1992@gmail.com",
+    "phone": "+46727431990",
+    "website": "http://eliassvensson.com",
+    "summary": "Big fan of startups and artificial intelligence.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
