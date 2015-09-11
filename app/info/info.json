@@ -15,10 +15,26 @@
       "region": "Sweden"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
+      "network": "Facebook",
+      "username": "eejs92",
+      "url": "https://www.facebook.com/eejs92"
+    }, {
+    "network": "LinkedIn",
+    "username": "eliassvensson",
+    "url": "https://se.linkedin.com/in/eliassvensson"
+    }, {
+    "network": "Twitter",
+    "username": "RegularSvensson",
+    "url": "https://github.com/RegularSvensson/"
+    }, {
+    "network": "Email",
+    "username": "elias.svensson.1992",
+    "url": "elias.svensson.1992@gmail.com"
+    }, {
+    "network": "Phone",
+    "username": "EliasPhone",
+    "url": "+46727431990"
+      }]
   },
   "work": [{
     "company": "Company",
