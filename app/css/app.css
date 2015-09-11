@@ -1,8 +1,14 @@
-/* CSS */
+/* sass */
 button {
   margin: 1%; }
 
 h1 {
   font-family: helvetica; }
+
+.icon-social-facebook {
+  height: 48px;
+  width: 48px;
+  display: inline-block;
+  fill: currentColor; }
 
 /*# sourceMappingURL=app.css.map */
