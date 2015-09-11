@@ -20,9 +20,13 @@ h1 {
 }
 
 .icon-linkedin {
-	@extend .icon-facebook
+	@extend .icon-facebook;
 }
 
 .icon-twitter {
-	@extend .icon-facebook
+	@extend .icon-facebook;
+}
+
+.icon-fontawesome-webfont {
+	@extend .icon-facebook;
 }
