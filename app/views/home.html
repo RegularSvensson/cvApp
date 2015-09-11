@@ -28,7 +28,7 @@
       <div class="modal-body text-center">
         <!-- Refactor. Use expressions, info from .json file, repeat through all in array -->
         <span>
-          <a href="mailto:elias.svensson.1992@gmail.com?Subject=Hello%20there!" target="_top">
+          <a ng-href="mailto:{{info.basics.email}}?Subject=Hello%20there!" target="_top">
             <button type="button" class="btn btn-link">
               <svg class="icon-email-envelope"><use xlink:href="#icon-email-envelope"></use></svg>
             </button>
