@@ -17,15 +17,18 @@
     "profiles": [{
       "network": "Facebook",
       "username": "eejs92",
-      "url": "https://www.facebook.com/eejs92"
+      "url": "https://www.facebook.com/eejs92",
+      "icon": "icon-facebook"
     }, {
     "network": "LinkedIn",
     "username": "eliassvensson",
-    "url": "https://se.linkedin.com/in/eliassvensson"
+    "url": "https://se.linkedin.com/in/eliassvensson",
+    "icon": "icon-linkedin"
     }, {
     "network": "Twitter",
     "username": "RegularSvensson",
-    "url": "https://github.com/RegularSvensson/"
+    "url": "https://github.com/RegularSvensson/",
+    "icon": "icon-twitter"
     }]
   },
   "work": [{
