@@ -27,6 +27,11 @@
       </div>
       <div class="modal-body text-center">
         <!-- Refactor. Use expressions, info from .json file, repeat through all in array -->
+        <!--
+        <div ng-repeat="profile in info.basics.profiles">
+          <p>{{profile.network}}</p>
+        </div>
+        -->
         <span>
           <a ng-href="mailto:{{info.basics.email}}?Subject=Hello%20there!" target="_top">
             <button type="button" class="btn btn-link">
