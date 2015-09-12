@@ -32,6 +32,17 @@
           <p>{{profile.network}}</p>
         </div>
         -->
+        <!--
+        <div>
+          <span ng-repeat="profile in info.basics.profiles">
+            <a ng-href="{{profile.url}}" target="_blank">
+              <button type="button" class="btn btn-link">
+                <svg ng-class="{{profile.icon}}"><use xlink:ng-href="#{{profile.icon}}"></use></svg>
+              </button>
+            </a>
+          </span>
+        </div>
+        -->
         <span>
           <a ng-href="mailto:{{info.basics.email}}?Subject=Hello%20there!" target="_top">
             <button type="button" class="btn btn-link">
