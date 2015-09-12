@@ -29,7 +29,7 @@
     }]
   },
   "work": [{
-    "company": "Company",
+    "company": "Company1",
     "position": "President",
     "website": "http://company.com",
     "startDate": "2013-01-01",
@@ -39,7 +39,7 @@
       "Started the company"
     ]
   }, {
-    "company": "Company",
+    "company": "Company2",
     "position": "President",
     "website": "http://company.com",
     "startDate": "2013-01-01",
