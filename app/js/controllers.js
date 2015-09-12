@@ -5,7 +5,7 @@
 var cvAppControllers = angular.module('cvAppControllers', []);
 
 cvAppControllers.controller('HomeController', ['$scope', '$http', function($scope, $http) {
-	$http.get('info/info.json').success(function(data) {
+	$http.get('/app/info/info.json').success(function(data) {
 		$scope.info = data;
 	});
 	$scope.backgroundImg = "/app/img/kugghjulet.png";
@@ -13,7 +13,7 @@ cvAppControllers.controller('HomeController', ['$scope', '$http', function($scop
 }]);
 
 cvAppControllers.controller('AboutController', ['$scope', '$http', function($scope, $http) {
-	$http.get('info/info.json').success(function(data) {
+	$http.get('/app/info/info.json').success(function(data) {
 		$scope.info = data;
 
 	});

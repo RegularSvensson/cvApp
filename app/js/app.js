@@ -7,11 +7,11 @@ var cvApp = angular.module('cvApp', ['ngRoute', 'cvAppControllers']);
 cvApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 	.when('/home', {
-		templateUrl: 'views/home.html',
+		templateUrl: '/app/views/home.html',
 		controller: 'HomeController'
 	})
 	.when('/about', {
-		templateUrl: 'views/about.html',
+		templateUrl: '/app/views/about.html',
 		controller: 'AboutController'
 	})
 	.otherwise({
