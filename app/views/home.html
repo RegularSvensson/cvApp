@@ -37,7 +37,7 @@
           <span ng-repeat="profile in info.basics.profiles">
             <a ng-href="{{profile.url}}" target="_blank">
               <button type="button" class="btn btn-link">
-                <svg ng-class="{{profile.icon}}"><use xlink:ng-href="#{{profile.icon}}"></use></svg>
+                <svg ng-class="{{profile.icon}}"><use ng-attr-xlink:href="{{profile.icon}}" xlink:href="#"></use></svg>
               </button>
             </a>
           </span>
