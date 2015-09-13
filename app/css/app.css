@@ -6,8 +6,7 @@ h1 {
   font-family: helvetica; }
 
 .icon-facebook, .icon-email-envelope, .icon-linkedin, .icon-twitter, .icon-fontawesome-webfont, .icon-call-phone {
-  height: 48px;
-  width: 48px;
+  font-size: 40px;
   display: inline-block;
   fill: currentColor; }
 
