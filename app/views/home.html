@@ -26,66 +26,27 @@
         <h4 class="modal-title text-center" id="myModalLabel">How would you like to get in touch?</h4>
       </div>
       <div class="modal-body text-center">
-        <!-- Refactor. Use expressions, info from .json file, repeat through all in array -->
-        <!--
-        <div ng-repeat="profile in info.basics.profiles">
-          <p>{{profile.network}}</p>
-        </div>
-        -->
-        <!--
-        <div>
-          <span ng-repeat="profile in info.basics.profiles">
-            <a ng-href="{{profile.url}}" target="_blank">
-              <button type="button" class="btn btn-link">
-                <svg ng-class="{{profile.icon}}"><use xlink:ng-href="#{{profile.icon}}"></use></svg>
-              </button>
-            </a>
-          </span>
-        </div>
-        -->
+        <span ng-repeat="profile in info.basics.profiles">
+          <a ng-href="{{profile.url}}" target="_blank">
+            <button type="button" class="btn btn-link">
+              <div class="ng-class: profile.icon;"></div>
+            </button>
+          </a>
+        </span>
         <span>
           <a ng-href="mailto:{{info.basics.email}}?Subject=Hello%20there!" target="_top">
             <button type="button" class="btn btn-link">
-              <svg class="icon-email-envelope"><use xlink:href="#icon-email-envelope"></use></svg>
+              <div class="icon-email-envelope"></div>
             </button>
           </a>
         </span>
         <span>
-          <a href="https://www.facebook.com/eejs92" target="_blank">
+          <a ng-href="tel:{{info.basics.phone}}" >
             <button type="button" class="btn btn-link">
-              <svg class="icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+              <div class="icon-call-phone"></div>
             </button>
           </a>
         </span>
-        <span>
-          <a href="https://se.linkedin.com/in/eliassvensson" target="_blank">
-            <button type="button" class="btn btn-link">
-              <svg class="icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
-            </button>
-          </a>
-        </span>
-        <span>
-          <a href="https://twitter.com/RegularSvensson" target="_blank">
-            <button type="button" class="btn btn-link">
-              <svg class="icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-            </button>
-          </a>
-        </span>
-        <span>
-          <a href="https://github.com/RegularSvensson/" target="_blank">
-            <button type="button" class="btn btn-link">
-              <svg class="icon-fontawesome-webfont"><use xlink:href="#icon-fontawesome-webfont"></use></svg>
-            </button>
-          </a>
-        </span>
-        <span>
-          <a href="tel:+46727431990">
-            <button type="button" class="btn btn-link">
-              <svg class="icon-call-phone"><use xlink:href="#icon-call-phone"></use></svg>
-            </button>
-          </a>
-        </span>
-        <!-- ^ refactor -->
       </div>
       <div class="modal-footer">
       	<div class="text-center">
