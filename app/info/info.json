@@ -9,9 +9,8 @@
     "summary": "Big fan of startups and artificial intelligence.",
     "location": {
       "address": "Lindholmsallén 37",
-      "postalCode": "417 53 Göteborg",
+      "postalCode": "417 53",
       "city": "Göteborg",
-      "countryCode": "SWE",
       "region": "Sweden"
     },
     "profiles": [{
@@ -37,20 +36,16 @@
     "website": "http://company.com",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
+    "responsibilities": "Description...",
+    "companyType": "industry..."
   }, {
     "company": "Company2",
     "position": "President",
     "website": "http://company.com",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
+    "responsibilities": "Description...",
+    "companyType": "industry..."
     }],
   "volunteer": [{
     "organization": "Organization",
@@ -58,10 +53,8 @@
     "website": "http://organization.com/",
     "startDate": "2012-01-01",
     "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
+    "responsibilities": "Description...",
+    "companyType": "industry..."
   }],
   "education": [{
     "institution": "University",
