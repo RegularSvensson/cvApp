@@ -29,3 +29,11 @@
 		<p><b>Type of company:</b> {{ volunteer.companyType }} </p>
 		<p><b>Company Website:</b> {{ volunteer.website }} </p>	
 	</div>
+	<h1>Education</h1>
+	<div ng-repeat="education in info.education" class="well">
+		<p><b>Dates:</b> {{ education.startDate }} - {{ education.endDate }} </p>
+		<p><b>Institution:</b> {{ education.institution }} </p>
+		<p><b>Area:</b> {{ education.area }} </p>
+		<p><b>Study type:</b> {{ education.studyType }} </p>
+	</div>
+</div>
