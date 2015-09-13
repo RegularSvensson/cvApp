@@ -20,3 +20,12 @@
 		<p><b>Type of company:</b> {{ work.companyType }} </p>
 		<p><b>Company Website:</b> {{ work.website }} </p>
 	</div>
+	<h1>Volunteer work</h1>
+	<div ng-repeat="volunteer in info.volunteer" class="well">
+		<p><b>Dates:</b> {{volunteer.startDate}} - {{volunteer.endDate}}</p>
+		<p><b>Organization:</b> {{ volunteer.organization }} </p>
+		<p><b>Position:</b> {{ volunteer.position }} </p>
+		<p><b>Responsibilities:</b> {{ volunteer.responsibilities }} </p>
+		<p><b>Type of company:</b> {{ volunteer.companyType }} </p>
+		<p><b>Company Website:</b> {{ volunteer.website }} </p>	
+	</div>
