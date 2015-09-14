@@ -1,5 +1,12 @@
-var gulp = require ('gulp');
+var gulp = require ('gulp'),
+	uglify = require('gulp-uglify');;
 
 gulp.task('default', function() {
 	console.log('Hello, world!');
+});
+ 
+gulp.task('compress', function() {
+  return gulp.src('lib/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist'));
 });
