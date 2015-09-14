@@ -5,12 +5,15 @@
 		</button>
 	</a>
 	<h1>Personal information</h1>
-	<p><b>Name:</b> {{info.basics.name}}</p>
-	<p><b>Occupation:</b> {{ info.basics.label }}</p>
-	<p><b>Adress:</b><span ng-repeat="(key, value) in info.basics.location"> {{value}} </span></p>
-	<p><b>Phone:</b> {{ info.basics.phone }} </p>
-	<p><b>Email:</b> {{ info.basics.email }} </p>
-	<p><b>Interests:</b> {{ info.basics.summary }} </p>
+	<div class="well">
+		<p><b>Name:</b> {{info.basics.name}}</p>
+		<p><b>Occupation:</b> {{ info.basics.label }}</p>
+		<p><b>Adress:</b><span ng-repeat="(key, value) in info.basics.location"> {{value}} </span></p>
+		<p><b>Phone:</b> {{ info.basics.phone }} </p>
+		<p><b>Email:</b> {{ info.basics.email }} </p>
+		<p><b>Interests:</b> {{ info.basics.summary }} </p>
+	</div>
+
 	<h1>Work experience</h1>
 	<div ng-repeat="work in info.work" class="well">
 		<p><b>Dates:</b> {{work.startDate}} - {{work.endDate}}</p>
