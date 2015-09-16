@@ -7,10 +7,10 @@ gulp.task('default', function() {
 });
  
 gulp.task('compressJS', function() {
-  return gulp.src('/app/js/*.js')
+  return gulp.src('app/js/*.js')
     .pipe(uglify())
     .pipe(rename({
     	suffix: '.min'
     }))
-    .pipe(gulp.dest('/app/js/'));
+    .pipe(gulp.dest('app/js/'));
 });
