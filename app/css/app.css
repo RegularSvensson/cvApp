@@ -10,4 +10,8 @@ h1 {
   display: inline-block;
   fill: currentColor; }
 
+#headshot {
+  height: 200px;
+  width: 200px; }
+
 /*# sourceMappingURL=app.css.map */
