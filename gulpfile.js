@@ -6,7 +6,7 @@ gulp.task('default', function() {
 });
  
 gulp.task('compressJS', function() {
-  return gulp.src('js/*.js')
+  return gulp.src('/app/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('js/'));
+    .pipe(gulp.dest('/app/js/'));
 });
