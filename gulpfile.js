@@ -15,3 +15,12 @@ gulp.task('compress-js', function() {
     }))
     .pipe(gulp.dest('app/js/'));
 });
+
+gulp.task('minify-css', function() {
+  return gulp.src('app/css/*.css')
+    .pipe(minifyCss())
+    .pipe(rename({
+    	suffix: '.min'
+    }))
+    .pipe(gulp.dest('app/js/'));
+});
