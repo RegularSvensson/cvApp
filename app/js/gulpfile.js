@@ -5,8 +5,8 @@ gulp.task('default', function() {
 	console.log('Hello, world!');
 });
  
-gulp.task('compress', function() {
-  return gulp.src('lib/*.js')
+gulp.task('compressJS', function() {
+  return gulp.src('js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('js/'));
 });
