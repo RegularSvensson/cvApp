@@ -7,7 +7,7 @@ gulp.task('default', function() {
 	console.log('Hello, world!');
 });
  
-gulp.task('compressJS', function() {
+gulp.task('compress-js', function() {
   return gulp.src('app/js/*.js')
     .pipe(uglify())
     .pipe(rename({
