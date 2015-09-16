@@ -1,5 +1,6 @@
 var gulp = require ('gulp'),
-	uglify = require('gulp-uglify');;
+	uglify = require('gulp-uglify'),
+	rename = require('gulp-rename');
 
 gulp.task('default', function() {
 	console.log('Hello, world!');
